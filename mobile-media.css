@@ -39,20 +39,18 @@ button {
   background-color: white;
   cursor: pointer;
   padding: 1.6rem;
-  right: 8rem;
 }
 
 .mobile-nav > span {
   display: none;
   position: relative;
   width: auto;
-  padding: 0rem 5rem;
   height: 30px;
   font-size: 22px;
   color: black;
   background-color: white;
   cursor: pointer;
-  right: 13.5rem;
+  right: 5.4rem;
   top: 1.5rem;
 }
 
@@ -61,10 +59,24 @@ button {
   display: none;
   flex-wrap: wrap;
   flex-direction: column;
-  top: 3rem;
-  left: 6.5rem;
+  top: 3.5rem;
+  left: 0.6rem;
   list-style: none;
   height: 100vh;
+  animation: fromtop 1.5s;
+}
+
+@keyframes fromtop {
+  from {
+    top: -30rem;
+    opacity: 0;
+    height: 40vh;
+  }
+  to {
+    top: 3.5rem;
+    opacity: 1;
+    height: 100vh;
+  }
 }
 
 .ul > a {
