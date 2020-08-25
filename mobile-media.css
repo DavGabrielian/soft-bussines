@@ -54,7 +54,7 @@ button {
   left: 1rem;
 }
 
-.mobile-nav > ul {
+.ul {
   display: none;
   flex-wrap: wrap;
   flex-direction: column;
@@ -62,7 +62,7 @@ button {
   list-style: none;
 }
 
-.mobile-nav > ul > li {
+.ul > a {
   position: relative;
   width: auto;
   font-size: 20px;
@@ -70,6 +70,7 @@ button {
   background-color: white;
   cursor: pointer;
   padding: 1.6rem;
+  text-decoration: none;
 }
 
 .landing-page {
@@ -230,7 +231,6 @@ button {
   color: #1192ee;
 }
 
-
 .about-page {
   display: flex;
   flex: wrap;
@@ -280,7 +280,6 @@ button {
   width: 75%;
   color: #8a97a5;
 }
-
 
 .how-page {
   padding-top: 10rem;

@@ -23,16 +23,16 @@
   <body>
     <nav id="navbar" class="mobile-nav">
       <a onclick="openMenu()" id="menu">Menu</a>
-      <ul id="ul">
-        <li href="/" onclick="closeMenu()">HOME</li>
-        <li href="#about" onclick="closeMenu()">ABOUT</li>
-        <li href="#project" onclick="closeMenu()">PROJECT</li>
-        <li href="#service" onclick="closeMenu()">SERVICES</li>
-        <li href="#blog" onclick="closeMenu()">BLOG</li>
-        <li href="#contact" onclick="closeMenu()">CONTACTS</li>
-        <li><img src="img/Vector (2).png" alt="" /></li>
-        <li href="/" onclick="closeMenu()"><button>FREE TRIAL</button></li>
-      </ul>
+      <div class="ul" id="ul">
+        <a href="/" onclick="closeMenu()">HOME</a>
+        <a href="#about" onclick="closeMenu()">ABOUT</a>
+        <a href="#project" onclick="closeMenu()">PROJECT</a>
+        <a href="#service" onclick="closeMenu()">SERVICES</a>
+        <a href="#blog" onclick="closeMenu()">BLOG</a>
+        <a href="#contact" onclick="closeMenu()">CONTACTS</a>
+        <a><img src="img/Vector (2).png" alt="" /></a>
+        <a href="/"><button>FREE TRIAL</button></a>
+      </div>
       <span onclick="closeMenu()" id="close">Close </span>
     </nav>
 
@@ -100,7 +100,7 @@
       </div>
     </section>
 
-    <section class="about-page">
+    <section id="about" class="about-page">
       <div class="about-item">
         <img src="img/sec3.png" alt="" />
       </div>
