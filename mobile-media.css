@@ -20,7 +20,7 @@ button {
 .mobile-nav {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
   position: fixed;
   width: 100%;
   z-index: 1;
@@ -46,19 +46,21 @@ button {
   display: none;
   position: relative;
   width: auto;
+  height: 30px;
   font-size: 22px;
   color: black;
   background-color: white;
   cursor: pointer;
-  padding: 1.6rem;
-  left: 1rem;
+  right: 13.5rem;
+  top: 1.5rem;
 }
 
 .ul {
+  position: relative;
   display: none;
   flex-wrap: wrap;
   flex-direction: column;
-  align-items: center;
+  left: 1.5rem;
   list-style: none;
 }
 
@@ -135,8 +137,12 @@ button {
   flex: wrap;
   flex-direction: row;
   position: relative;
-  padding: 6rem 2rem;
+  padding: 6rem 0rem;
   width: 100%;
+}
+
+.first {
+  padding: 0rem 2rem;
 }
 
 .skills-page > div {
@@ -147,11 +153,11 @@ button {
   display: flex;
   flex: wrap;
   flex-direction: column;
-  width: 50%;
+  width: 40%;
 }
 
 .skills-item > img {
-  min-width: 75%;
+  min-width: 100%;
 }
 
 .skills-item > h2 {
@@ -181,14 +187,14 @@ button {
   color: #8a97a5;
 }
 
-.footer {
+.skills-footer {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: center;
   background: #ffffff;
   box-shadow: 0px 8px 10px rgba(247, 247, 247, 0.79);
-  width: 95%;
+  width: 100%;
 }
 
 .foot-item {
@@ -482,7 +488,7 @@ hr {
   box-sizing: border-box;
   border-radius: 20px;
   flex: 0 0 45%;
-  margin: .8rem;
+  margin: 0.8rem;
 }
 
 .package-item:nth-child(2) {
@@ -531,7 +537,6 @@ hr {
 
 .package-item > p:first-child {
   padding-top: 1rem;
-
 }
 
 .package-item > ul {
@@ -563,10 +568,9 @@ hr {
 
 .package-item > span:hover {
   cursor: pointer;
-  color: #0077ff ;
+  color: #0077ff;
   font-size: 20px;
   translate: 1s;
-
 }
 
 .approach-page {
