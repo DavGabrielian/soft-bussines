@@ -85,12 +85,12 @@ button {
   display: flex;
   flex: wrap;
   flex-direction: column;
-  width: 100%;
+  width: 50%;
   padding-bottom: 2rem;
 }
 
 .landing-item > img {
-  width: 80%;
+  min-width: 75%;
 }
 
 .landing-item > h1 {
@@ -110,7 +110,7 @@ button {
 .landing-item > p {
   font-size: 14px;
   margin-bottom: 2rem;
-  width: 65%;
+  width: 100%;
 }
 
 .landing-item button {
@@ -119,21 +119,24 @@ button {
   margin-bottom: 2rem;
   width: 150px;
   height: 40px;
-
 }
 
 .landing-item > span {
   font-weight: 900;
   font-size: 8px;
   margin-bottom: 2rem;
-
 }
+
+.icons > img {
+  width: 6rem;
+}
+
 .skills-page {
-  position: relative;
-  padding: 6rem;
   display: flex;
   flex: wrap;
   flex-direction: row;
+  position: relative;
+  padding: 6rem 2rem;
   width: 100%;
 }
 
@@ -149,49 +152,52 @@ button {
 }
 
 .skills-item > img {
-  width: 60%;
+  min-width: 75%;
+}
+
+.skills-item > h2 {
+  font-weight: bold;
+  font-size: 12px;
+  color: #1192ee;
+  margin-bottom: 1rem;
+}
+
+.skills-item > h2::before {
+  content: "_ ";
 }
 
 .skills-item > h1 {
   font-weight: 500;
-  font-size: 16px;
+  font-size: 20px;
   color: #002c5b;
-  width: 65%;
-}
-
-.skills-item > h2 {
-  font-weight: 500;
-  font-size: 24px;
-  color: #2065af;
+  width: 60%;
   margin-bottom: 3rem;
 }
 
 .skills-item > p {
-  font-size: 16px;
+  font-size: 14px;
   margin-bottom: 3rem;
-  width: 50%;
+  width: 75%;
+  color: #8a97a5;
 }
 
-.skills-item > h2::before {
-  content: "_";
-}
-
-.skills-page > footer {
+.footer {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
+  justify-content: center;
   background: #ffffff;
   box-shadow: 0px 8px 10px rgba(247, 247, 247, 0.79);
-  width: 100%;
+  width: 95%;
 }
-
 
 .foot-item {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  width: 25%;
+  width: 20rem;
   text-align: center;
+  padding-bottom: 1rem;
 }
 
 .foot-item > h3 {
@@ -224,14 +230,14 @@ button {
   color: #1192ee;
 }
 
+
 .about-page {
-  padding-top: 10rem;
-  position: relative;
   display: flex;
   flex: wrap;
   flex-direction: row;
-  background: #e8f5fe;
-  justify-content: center;
+  position: relative;
+  padding: 6rem 2rem;
+  width: 100%;
 }
 
 .about-page > div {
@@ -246,12 +252,12 @@ button {
 }
 
 .about-item > img {
-  width: 80%;
+  min-width: 75%;
 }
 
 .about-item > h2 {
   font-weight: bold;
-  font-size: 14px;
+  font-size: 12px;
   color: #1192ee;
   margin-bottom: 1rem;
 }
@@ -262,18 +268,19 @@ button {
 
 .about-item > h1 {
   font-weight: 500;
-  font-size: 24px;
+  font-size: 20px;
   color: #002c5b;
   width: 60%;
   margin-bottom: 3rem;
 }
 
 .about-item > p {
-  font-size: 16px;
+  font-size: 14px;
   margin-bottom: 3rem;
-  width: 80%;
+  width: 75%;
   color: #8a97a5;
 }
+
 
 .how-page {
   padding-top: 10rem;

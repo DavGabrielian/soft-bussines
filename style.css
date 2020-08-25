@@ -92,7 +92,7 @@ nav > ul > li {
   font-weight: 500;
   font-size: 40px;
   color: #002c5b;
-  width: 65%;
+  width: 70%;
 }
 
 .landing-item > h2 {
@@ -105,7 +105,7 @@ nav > ul > li {
 .landing-item > p {
   font-size: 16px;
   margin-bottom: 3rem;
-  width: 50%;
+  width: 75%;
 }
 
 .landing-item button {
@@ -125,6 +125,19 @@ nav > ul > li {
   font-size: 10px;
 }
 
+.skills-page > div {
+  margin-bottom: 10rem;
+}
+
+.icons {
+  width: 90%;
+  height: auto;
+}
+
+.icons > img {
+  width: 10rem;
+}
+
 .skills-page {
   position: relative;
   padding: 6rem;
@@ -132,10 +145,6 @@ nav > ul > li {
   flex: wrap;
   flex-direction: row;
   width: 100%;
-}
-
-.skills-page > div {
-  margin-bottom: 10rem;
 }
 
 .skills-item {
@@ -149,37 +158,39 @@ nav > ul > li {
   width: 60%;
 }
 
-.skills-item > h1 {
-  font-weight: 500;
-  font-size: 16px;
-  color: #002c5b;
-  width: 65%;
+.skills-item > h2 {
+  font-weight: bold;
+  font-size: 14px;
+  color: #1192ee;
+  margin-bottom: 1rem;
 }
 
-.skills-item > h2 {
+.skills-item > h2::before {
+  content: "_ ";
+}
+
+.skills-item > h1 {
   font-weight: 500;
   font-size: 24px;
-  color: #2065af;
+  color: #002c5b;
+  width: 60%;
   margin-bottom: 3rem;
 }
 
 .skills-item > p {
   font-size: 16px;
   margin-bottom: 3rem;
-  width: 50%;
+  width: 70%;
+  color: #8a97a5;
 }
 
-.skills-item > h2::before {
-  content: "_";
-}
-
-.skills-page > footer {
+.footer {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   background: #ffffff;
   box-shadow: 0px 8px 10px rgba(247, 247, 247, 0.79);
-  width: 100%;
+  width: 80%;
 }
 
 .foot-item {
@@ -215,23 +226,20 @@ nav > ul > li {
   content: url("img/icon2.png");
   color: #1192ee;
 }
+
 .foot-item:nth-child(4) > h3::after {
   content: url("img/icon1.png");
   color: #1192ee;
 }
 
 .about-page {
-  padding-top: 10rem;
   position: relative;
+  padding: 6rem;
   display: flex;
   flex: wrap;
   flex-direction: row;
+  width: 100%;
   background: #e8f5fe;
-  justify-content: center;
-}
-
-.about-page > div {
-  margin-bottom: 10rem;
 }
 
 .about-item {
@@ -242,7 +250,7 @@ nav > ul > li {
 }
 
 .about-item > img {
-  width: 80%;
+  width: 60%;
 }
 
 .about-item > h2 {
@@ -267,7 +275,7 @@ nav > ul > li {
 .about-item > p {
   font-size: 16px;
   margin-bottom: 3rem;
-  width: 80%;
+  width: 70%;
   color: #8a97a5;
 }
 
