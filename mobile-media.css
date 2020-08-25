@@ -467,7 +467,6 @@ hr {
   flex-direction: row;
   justify-content: center;
   margin-top: 3rem;
-  text-align: center;
   width: 100%;
   padding: 2rem;
 }
@@ -508,7 +507,7 @@ hr {
 
 .package-item > h2 {
   padding-top: 1.5rem;
-  padding-bottom: 1.4rem;
+  padding-bottom: 1rem;
   font-weight: 900;
   font-size: 60px;
 }
