@@ -381,7 +381,8 @@ hr {
 }
 
 .how-foot > p {
-  width: 20%;
+  width: 15rem;
+  padding-bottom: 1rem;
 }
 
 .free-page {
@@ -391,12 +392,14 @@ hr {
   flex-wrap: wrap;
   flex-direction: column;
   align-content: center;
-  background: linear-gradient(0deg, #def5fd, #def5fd), #def5fd;
+  background: #def5fd;
 }
 
 .free-page > div > h3 {
+  text-align: center;
   font-weight: 500;
   font-size: 24px;
+  margin-bottom: 1rem;
 }
 
 .free-page > div > h3 > span {
@@ -451,7 +454,7 @@ hr {
 
 .package-intro > p {
   font-weight: normal;
-  font-size: 14px;
+  font-size: 16px;
   text-align: center;
   color: #8a97a5;
   margin: 2rem 20rem 2rem 20rem;
