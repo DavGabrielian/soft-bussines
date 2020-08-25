@@ -52,14 +52,14 @@ nav {
   cursor: pointer;
 }
 
-.ul {
+.nav-list {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   list-style: none;
 }
 
-.ul > a {
+.nav-list > a {
   position: relative;
   width: auto;
   font-size: 16px;

@@ -54,7 +54,7 @@ button {
   top: 1.5rem;
 }
 
-.ul {
+.nav-list {
   position: relative;
   display: none;
   flex-wrap: wrap;
@@ -70,7 +70,7 @@ button {
   from {
     top: -30rem;
     opacity: 0;
-    height: 40vh;
+    height: 20vh;
   }
   to {
     top: 3.5rem;
@@ -79,7 +79,7 @@ button {
   }
 }
 
-.ul > a {
+.nav-list > a {
   position: relative;
   width: auto;
   font-size: 20px;

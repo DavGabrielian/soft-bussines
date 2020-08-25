@@ -3,7 +3,7 @@ let close = document.getElementById("close");
 
 openMenu = () => {
   if ((menu.style.display = "block")) {
-    (document.getElementById("ul").style.display = "flex") &&
+    (document.getElementById("list").style.display = "flex") &&
       (document.getElementById("menu").style.display = "none") &&
       (document.getElementById("close").style.display = "block");
   }
@@ -11,7 +11,7 @@ openMenu = () => {
 
 closeMenu = () => {
   if ((close.style.display = "block")) {
-    (document.getElementById("ul").style.display = "none") &&
+    (document.getElementById("list").style.display = "none") &&
       (document.getElementById("menu").style.display = "block") &&
       (document.getElementById("close").style.display = "none");
   }
