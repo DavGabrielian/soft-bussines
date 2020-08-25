@@ -513,10 +513,9 @@ hr {
 }
 
 .package-item > h2::before {
-  position: absolute;
+  position: relative;
   content: "$";
   font-size: 24px;
-  left: 115px;
 }
 
 .package-item > button {
@@ -527,7 +526,7 @@ hr {
 
 .package-item > p {
   font-weight: normal;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .package-item > p:first-child {
@@ -556,24 +555,25 @@ hr {
 .package-item > span {
   font-weight: 900;
   font-size: 16px;
-  color: #1192ee;
+  color: #1178ee;
   padding-bottom: 1.5rem;
 }
 
+.package-item > span:hover {
+  cursor: pointer;
+  color: #0077ff;
+  font-size: 22px;
+  transition: 0.8s;
+}
+
 .approach-page {
-  margin-right: 5rem;
-  margin-left: 5rem;
-  padding-top: 10rem;
   position: relative;
+  padding: 6rem;
   display: flex;
   flex: wrap;
   flex-direction: row;
-  background: #ffffff;
-  justify-content: center;
-}
-
-.approach-page > div {
-  margin-bottom: 10rem;
+  width: 100%;
+  background: #e8f5fe;
 }
 
 .approach-item {
@@ -584,7 +584,7 @@ hr {
 }
 
 .approach-item > img {
-  width: 80%;
+  width: 60%;
 }
 
 .approach-item > h2 {
@@ -609,6 +609,7 @@ hr {
 .approach-item > p {
   font-size: 16px;
   margin-bottom: 3rem;
+  width: 70%;
   color: #8a97a5;
 }
 
@@ -620,10 +621,22 @@ hr {
   padding-bottom: 2rem;
 }
 
-.approach-item > ul > img {
-  box-shadow: 0px 4px 5px rgba(247, 247, 247, 0.79);
-  border-radius: 5px;
-  content: url("img/mark.png");
-  position: absolute;
-  right: 38rem;
+footer {
+  text-align: center;
+  padding: 3rem;
+}
+
+.footer-icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 2rem;
+}
+
+.footer-icons a {
+  flex: 0 0 10%;
+  max-width: 100%;
+  color: #007bff;
+  text-decoration: none;
+  background-color: transparent;
 }

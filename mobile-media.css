@@ -482,8 +482,8 @@ hr {
   border: 0.5px dashed #1192ee;
   box-sizing: border-box;
   border-radius: 20px;
-  flex: 0 0 30%;
-  margin: 1rem;
+  flex: 0 0 45%;
+  margin: .8rem;
 }
 
 .package-item:nth-child(2) {
@@ -502,22 +502,21 @@ hr {
 
 .package-item > h3 {
   font-weight: bold;
-  font-size: 16px;
+  font-size: 15px;
   padding-top: 1rem;
 }
 
 .package-item > h2 {
-  padding-top: 2.5rem;
-  padding-bottom: 2rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.4rem;
   font-weight: 900;
-  font-size: 64px;
+  font-size: 60px;
 }
 
 .package-item > h2::before {
-  position: absolute;
+  position: relative;
   content: "$";
-  font-size: 24px;
-  left: 115px;
+  font-size: 22px;
 }
 
 .package-item > button {
@@ -528,16 +527,17 @@ hr {
 
 .package-item > p {
   font-weight: normal;
-  font-size: 14px;
+  font-size: 15px;
 }
 
 .package-item > p:first-child {
   padding-top: 1rem;
+
 }
 
 .package-item > ul {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+  padding-top: 1.6rem;
+  padding-bottom: 1.6rem;
 }
 
 .package-item > ul > li {
@@ -558,19 +558,25 @@ hr {
   font-weight: 900;
   font-size: 16px;
   color: #1192ee;
-  padding-bottom: 1.5rem;
+  padding-bottom: 1.3rem;
+  align-content: center;
+}
+
+.package-item > span:hover {
+  cursor: pointer;
+  color: #0077ff ;
+  font-size: 20px;
+  translate: 1s;
+
 }
 
 .approach-page {
-  margin-right: 5rem;
-  margin-left: 5rem;
-  padding-top: 10rem;
-  position: relative;
   display: flex;
   flex: wrap;
   flex-direction: row;
-  background: #ffffff;
-  justify-content: center;
+  position: relative;
+  padding: 3rem 2rem 0rem 2rem;
+  width: 100%;
 }
 
 .approach-page > div {
@@ -585,12 +591,12 @@ hr {
 }
 
 .approach-item > img {
-  width: 80%;
+  min-width: 80%;
 }
 
 .approach-item > h2 {
   font-weight: bold;
-  font-size: 14px;
+  font-size: 12px;
   color: #1192ee;
   margin-bottom: 1rem;
 }
@@ -601,30 +607,22 @@ hr {
 
 .approach-item > h1 {
   font-weight: 500;
-  font-size: 24px;
+  font-size: 20px;
   color: #002c5b;
-  width: 60%;
+  width: 70%;
   margin-bottom: 3rem;
 }
 
 .approach-item > p {
-  font-size: 16px;
+  font-size: 14px;
   margin-bottom: 3rem;
+  width: 75%;
   color: #8a97a5;
 }
-
 .approach-item > ul > li {
   position: relative;
   font-weight: normal;
-  font-size: 16px;
+  font-size: 15px;
   line-height: 150%;
   padding-bottom: 2rem;
-}
-
-.approach-item > ul > img {
-  box-shadow: 0px 4px 5px rgba(247, 247, 247, 0.79);
-  border-radius: 5px;
-  content: url("img/mark.png");
-  position: absolute;
-  right: 38rem;
 }
